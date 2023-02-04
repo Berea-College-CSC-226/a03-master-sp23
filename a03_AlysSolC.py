@@ -119,6 +119,7 @@ def grass(turt):
     turt.end_fill()
 
 def main():
+    """And finally, a bow to tie this all together."""
     setup()
     tree()
     grass(gTurt)
