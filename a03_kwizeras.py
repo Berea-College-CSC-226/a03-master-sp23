@@ -1,6 +1,5 @@
 import turtle
-
-def field():
+def field1():
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -65,6 +64,36 @@ def golies():
     t2.right(180)
     t2.pendown()
     t2.circle(40, 180)
+    t2.penup()
+    t2.fd(50)
+    t2.left(90)
+    t2.fd(8)
+    t2.pendown()
+    for i in range(2):
+        t2.fd(70)
+        t2.right(90)
+        t2.fd(20)
+        t2.right(90)
+    t2.penup()
+    t2.left(90)
+    t2.fd(480)
+    t2.right(90)
+    t2.pendown()
+    for i in range(2):
+        t2.fd(70)
+        t2.right(90)
+        t2.fd(20)
+        t2.right(90)
+    t2.penup()
+    t2.right(45)
+    t2.fd(50)
+    t2.pendown()
+    t2.circle(radius=r / 10)
+    t2.right(45)
+    t2.penup()
+    t2.fd(433)
+    t2.pendown()
+    t2.circle(radius=r / 10)
 
 
 
@@ -80,8 +109,8 @@ def golies():
 
 def main():
     win = turtle.Screen()
-    turtle.Screen().bgcolor("#196F3D")
-    field()
+    turtle.Screen().bgcolor("#0B5345")
+    field1()
     lines()
     golies()
     win.exitonclick()
