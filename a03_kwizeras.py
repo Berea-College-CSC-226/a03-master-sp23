@@ -95,6 +95,8 @@ def golies():
     t2.pendown()
     t2.circle(radius=r / 10)
 
+def flowers1():
+
 
 
 
@@ -113,6 +115,7 @@ def main():
     field1()
     lines()
     golies()
+    flowers1()
     win.exitonclick()
 
 main()
