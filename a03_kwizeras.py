@@ -1,7 +1,7 @@
 import turtle
 def field1():
     t = turtle.Turtle()
-    t.speed(10)
+    t.speed(1000)
     t.penup()
     t.goto(-200, -200)
     t.pendown()
@@ -16,7 +16,7 @@ def field1():
 r=20
 def lines():
     t1 = turtle.Turtle()
-    t1.speed(10)
+    t1.speed(1000)
     t1.penup()
     t1.goto(-200, 70)
     t1.pendown()
@@ -39,6 +39,7 @@ def golies():
     t2.penup()
     t2.goto(-120, 300)
     t2.pendown()
+    t2.speed(1000)
     t2.pencolor("#FEFDFC")
     for i in range(2):
         t2.fd(140)
@@ -96,18 +97,43 @@ def golies():
     t2.circle(radius=r / 10)
 
 def flowers1():
-
-
-
-
-
-
-
-
-
-
-
-
+    t3 = turtle.Turtle()
+    t3.penup()
+    t3.goto(-230, -150)
+    t3.pendown()
+    t3.speed(2000)
+    for i in range(7):
+        for i in range(40):
+            t3.color("orange")
+            t3.circle(19-i/2, 90)
+            t3.left(90)
+            t3.color("blue")
+            t3.circle(19-i/2, 90)
+            t3.left(18)
+        t3.left(90)
+        t3.penup()
+        t3.fd(70)
+        t3.right(90)
+        t3.pendown()
+    t3.right(56)
+    t3.penup()
+    t3.fd(610)
+    t3.left(56)
+    t3.fd(10)
+    t3.pendown()
+    for i in range(7):
+        for i in range(40):
+            t3.color("orange")
+            t3.circle(19-i/2, 90)
+            t3.left(90)
+            t3.color("blue")
+            t3.circle(19-i/2, 90)
+            t3.left(18)
+        t3.left(90)
+        t3.penup()
+        t3.fd(70)
+        t3.right(90)
+        t3.pendown()
 
 def main():
     win = turtle.Screen()
