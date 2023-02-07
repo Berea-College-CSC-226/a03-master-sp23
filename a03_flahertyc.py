@@ -1,3 +1,7 @@
+# Author: Colin Flaherty
+# Date: 2/7/2023
+# user: flahertyc
+
 import turtle
 wn = turtle.Screen()
 tod = turtle.Turtle()
