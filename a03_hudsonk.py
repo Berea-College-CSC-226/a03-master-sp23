@@ -2,7 +2,7 @@
 # Name: Kevion Hudson
 # Username: Hudsonk
 # Repo Link:
-# Google Doc:
+# Google Doc: https://docs.google.com/document/d/1wA5BSgvcmNNwuSRoSEEnYhERsPpY-Dn2ugZcuwi6K9g/edit?usp=sharing
 ########################################################
 
 import turtle
