@@ -3,10 +3,14 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <orderEntry type="inheritedJdk" />
 =======
     <orderEntry type="jdk" jdkName="Python 3.11 (venv)" jdkType="Python SDK" />
 >>>>>>> origin/main
+=======
+    <orderEntry type="inheritedJdk" />
+>>>>>>> jeremiah
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
