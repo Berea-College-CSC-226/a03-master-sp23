@@ -8,6 +8,6 @@ Name 2: ____________
 
 Name 3 (if needed): ____________
 
-Repository Link: _https://github.com/Berea-College-CSC-226/t01-choose-your-own-adventure-ben-and-j.git_____________
+Repository Link: _https://github.com/Berea-College-CSC-226/a03-master-sp23.git_____________
 
 Google Document Link: ______________https://docs.google.com/document/d/1COw43QOLWwTmNugtL6-NFwb4_xutbP5JhxCBX5IJSbM/edit?usp=sharing
