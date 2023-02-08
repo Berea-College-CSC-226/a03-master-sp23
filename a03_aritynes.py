@@ -145,34 +145,6 @@ def main():
 
 
     function_5(jay,65)
-    # jay.color("#FFEA00")                # code for different stars
-    # jay.penup()
-    # jay.setpos(-200,230)
-    # jay.pendown()
-    # Star(jay,65)
-    #
-    # jay.penup()
-    # jay.left(45)
-    # jay.forward(80)
-    # jay.pendown()
-    # Star(jay,65)
-    #
-    # jay.penup()
-    # jay.right(55)
-    # jay.forward(90)
-    # jay.pendown()
-    # Star(jay, 65)
-    #
-    # jay.penup()
-    # jay.left(45)
-    # jay.forward(80)
-    # jay.pendown()
-    # Star(jay, 65)
-
-
-
-
-
 
     wn.exitonclick()
 
