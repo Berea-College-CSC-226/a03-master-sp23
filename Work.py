@@ -101,10 +101,12 @@ def Burger(x):      #Makes Borger
         bunn()
 
 def main():
-    Burger(0)
-    Burger(30)
-    Burger(-40)
-    Burger(180)
+    Burger(9)
+    Burger(300)
+    Burger(-400)
+    Burger(18)
+
+
 main()
 wn.exitonclick()
 
