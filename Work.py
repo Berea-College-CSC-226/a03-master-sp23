@@ -25,7 +25,7 @@ turtle.pencolor()
 
 def bun(x): # Makes first bun
     turtle.begin_fill()
-    turtle.forward(30)
+    turtle.forward(x)
     for i in range(2):
         turtle.forward(80)
         turtle.right(90)
@@ -101,10 +101,10 @@ def Burger(x):      #Makes Borger
         bunn()
 
 def main():
-    Burger(9)
-    Burger(300)
-    Burger(-400)
-    Burger(18)
+    Burger(90)
+    Burger(-80)
+    Burger(70)
+    Burger(-75)
 
 
 main()
