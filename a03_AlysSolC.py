@@ -118,6 +118,7 @@ def grass(turt):
     turt.goto(-400, -100)
     turt.end_fill()
 
+
 def main():
     """And finally, a bow to tie this all together."""
     setup()
