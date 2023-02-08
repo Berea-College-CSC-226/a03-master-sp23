@@ -7,7 +7,9 @@
 ######################################################################
 # Acknowledgements:
 # Original: http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html
-#
+
+#https://github.com/Berea-College-CSC-226/a03-master-sp23
+#https://docs.google.com/document/d/1G8JfSFxEcRMOZi6tU5L4zN1lvZaS0B-c4uXfDsXQIMM/edit#
 # Dr. Jan Pearce - this file is modified from her original work
 
 # licensed under a Creative Commons
