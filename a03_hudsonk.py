@@ -8,8 +8,8 @@
 import turtle
 
 wn = turtle.Screen()
-wn.bgcolor("#908cf9")
-grass = turtle.Turtle()
+wn.bgcolor("#000000")
+water = turtle.Turtle()
 tri = turtle.Turtle()
 cir = turtle.Turtle()
 sec = turtle.Turtle()
@@ -17,18 +17,18 @@ last = turtle.Turtle()
 bd = turtle.Turtle()
 
 
-def fill_grass():
-    grass.penup()
-    grass.setpos(-382, -315)
-    grass.pendown()
-    grass.fillcolor("green")
-    grass.begin_fill()
+def fill_water():
+    water.penup()
+    water.setpos(-382, -315)
+    water.pendown()
+    water.fillcolor("medium blue")
+    water.begin_fill()
     for i in range(2):
-        grass.forward(760)
-        grass.left(90)
-        grass.forward(100)
-        grass.left(90)
-    grass.end_fill()
+        water.forward(760)
+        water.left(90)
+        water.forward(100)
+        water.left(90)
+    water.end_fill()
 
 def mountains():
     tri.pencolor("grey")
@@ -48,10 +48,10 @@ def mountains():
 
 def sun():
     cir.hideturtle()
-    cir.color("yellow")
+    cir.color("white")
     cir.penup()
     cir.setpos(-182, 0)
-    cir.fillcolor("yellow")
+    cir.fillcolor("white")
     cir.showturtle()
     cir.pendown()
     cir.right(90)
@@ -69,11 +69,11 @@ def mount():
     sec.showturtle()
     sec.pendown()
     sec.begin_fill()
-    sec.forward(300)
+    sec.forward(200)
     sec.left(110)
-    sec.forward(400)
+    sec.forward(300)
     sec.left(140)
-    sec.forward(400)
+    sec.forward(300)
     sec.end_fill()
     sec.hideturtle()
 
@@ -109,7 +109,7 @@ def birds():
         bd.left(90)
 
 def main():
-    fill_grass()
+    fill_water()
     mountains()
     sun()
     mount()
