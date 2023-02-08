@@ -7,13 +7,22 @@
 
 import turtle
 
+wn = turtle.Screen()
+wn.bgcolor("#908cf9")
+grass = turtle.Turtle()
+tri = turtle.Turtle()
+cir = turtle.Turtle()
+sec = turtle.Turtle()
+last = turtle.Turtle()
+bd = turtle.Turtle()
 
-def fill_grass(grass):
+
+def fill_grass():
     grass.penup()
     grass.setpos(-382, -315)
     grass.pendown()
-    grass.begin_fill()
     grass.fillcolor("green")
+    grass.begin_fill()
     for i in range(2):
         grass.forward(760)
         grass.left(90)
@@ -21,7 +30,7 @@ def fill_grass(grass):
         grass.left(90)
     grass.end_fill()
 
-    def mountains(tri):
+    def mountains():
         tri.pencolor("grey")
         tri.hideturtle()
         tri.penup()
@@ -37,7 +46,7 @@ def fill_grass(grass):
         tri.forward(250)
         tri.end_fill()
 
-    def sun(cir):
+    def sun():
         cir.hideturtle()
         cir.color("yellow")
         cir.penup()
@@ -51,7 +60,7 @@ def fill_grass(grass):
         cir.end_fill()
         cir.hideturtle()
 
-    def mount(sec):
+    def mount():
         sec.hideturtle()
         sec.penup()
         sec.pencolor("grey")
@@ -68,7 +77,7 @@ def fill_grass(grass):
         sec.end_fill()
         sec.hideturtle()
 
-    def mounts(last):
+    def mounts():
         last.hideturtle()
         last.penup()
         last.setpos(100, -215)
@@ -87,12 +96,12 @@ def fill_grass(grass):
         last.forward(250)
         last.end_fill()
 
-    def birds(bd):
+    def birds():
         bd.shape("classic")
         bd.color("black")
         bd.penup()
         bd.setpos(40, 55)
-        for i in range(5):
+        for g in range(5):
             bd.stamp()
             bd.forward(10)
             bd.right(90)
@@ -100,22 +109,12 @@ def fill_grass(grass):
             bd.left(90)
 
     def main():
-        wn = turtle.Screen()
-        wn.bgcolor("#908cf9")
-
-        grass = turtle.Turtle()
-        tri = turtle.Turtle()
-        cir = turtle.Turtle()
-        sec = turtle.Turtle()
-        last = turtle.Turtle()
-        bd = turtle.Turtle()
-
-        fill_grass(grass)
-        mountains(tri)
-        sun(cir)
-        mount(sec)
-        mounts(last)
-        birds(bd)
+        fill_grass()
+        mountains()
+        sun()
+        mount()
+        mounts()
+        birds()
 
         wn.exitonclick()
 
