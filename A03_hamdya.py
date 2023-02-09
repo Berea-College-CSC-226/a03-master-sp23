@@ -1,8 +1,8 @@
 ############################################################
 # Name: Abdallahi hamdy
 # Username: hamdya
-# Repo Link:
-# Github Link:
+# Repo Link: https://docs.google.com/document/d/1D_f3fJDvhS_BKacHKS7SOwkoEvEG6m-qVFAHYESeqoM/edit?usp=sharing
+# Github Link: https://github.com/Berea-College-CSC-226/a03-master-sp23.git
 ############################################################
 
 import turtle
