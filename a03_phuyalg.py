@@ -71,10 +71,12 @@ def draw_star_2(gagan):
 def main():
     gagan = turtle.Turtle()
     wn = turtle.Screen()
+    gagan.speed(0)
     turtle.bgcolor("#DDE6E7")
     gagan.pencolor("blue")
     draw_triangle(gagan, 200)
     draw_crescent(gagan, 40, 180)
+
     draw_star_2(gagan)
     gagan.hideturtle()
     wn.exitonclick()
