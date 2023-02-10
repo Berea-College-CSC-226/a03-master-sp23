@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d92ae757-1a8e-4a42-aab2-e8f9dc46fb7c" name="Changes" comment="this was difficult">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agyapongv_A03.PY" beforeDir="false" afterPath="$PROJECT_DIR$/agyapongv_A03.PY" afterDir="false" />
-    </list>
+<list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="house" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,10 +48,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\doroteoreyesa\AppData\Local\Programs\Python\Python311\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a03_hudsonk.py" />
@@ -111,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675866684353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="typed code and added link.">
+      <created>1675869729152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675869729152</updated>
+    </task>
+    <task id="LOCAL-00007" summary="typed code and added link and fixed code">
+      <created>1675870131147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675870131147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="im done" />
     <MESSAGE value="typed code and added link" />
-    <option name="LAST_COMMIT_MESSAGE" value="typed code and added link" />
+    <MESSAGE value="typed code and added link." />
+    <MESSAGE value="typed code and added link and fixed code" />
+    <option name="LAST_COMMIT_MESSAGE" value="typed code and added link and fixed code" />
   </component>
 </project>
