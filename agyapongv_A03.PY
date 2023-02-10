@@ -1,3 +1,15 @@
+#Author: Veronica Agyapong
+# Username1: Agyapongv
+# Assignment: A03: Functional Turtles
+# Purpose: Explore the use of functions with the turtle library
+
+
+
+
+
+
+
+
 import turtle
 wn = turtle.Screen()
 love = turtle.Turtle()
@@ -56,3 +68,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+wn.exitonclick()
