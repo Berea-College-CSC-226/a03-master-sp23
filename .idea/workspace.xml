@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="house">
+    <list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agyapongv_A03.PY" beforeDir="false" afterPath="$PROJECT_DIR$/agyapongv_A03.PY" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675870131147</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FINAL">
+      <created>1676347346351</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676347346351</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +204,7 @@
     <MESSAGE value="typed code and added link" />
     <MESSAGE value="typed code and added link." />
     <MESSAGE value="typed code and added link and fixed code" />
-    <option name="LAST_COMMIT_MESSAGE" value="typed code and added link and fixed code" />
+    <MESSAGE value="FINAL" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINAL" />
   </component>
 </project>
