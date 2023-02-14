@@ -63,7 +63,7 @@ def draw_t():  # create body of the house
     house.right(60)
     house.forward(100)
     house.end_fill()
-    house.hideturtle()
+    house.penup()
 
 def s_style():
     """This function draw the roof of the house"""
@@ -130,12 +130,15 @@ def sun_rays():
         sun.circle(40)
         sun.end_fill()
     for i in range(22):
+        sun.speed(-10)
         sun.right(90)
         sun.fd(30)
         sun.backward(30)
         sun.left(90)
         sun.circle(40, 20)
 
+    house.goto(-250, 300)
+    house.write("THE SUN IS TOO SUNNY TODAY", font=(" Times New Roman", 25, "normal"))
 
 def main():
     draw_t()
