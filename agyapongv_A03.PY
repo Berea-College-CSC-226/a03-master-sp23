@@ -1,26 +1,25 @@
-#Author: Veronica Agyapong
+# Author: Veronica Agyapong
 # Username1: Agyapongv
 # Assignment: A03: Functional Turtles
 # Purpose: Explore the use of functions with the turtle library
-
+# Got some information from : https://www.geeksforgeeks.org/draw-house-using-turtle-programming-in-python/
 import turtle
-wn = turtle.Screen() #creating and defining the variables
-love = turtle.Turtle()
-house = turtle.Turtle()
+
+wn = turtle.Screen()  # creating and defining the variables
+rays = turtle.Turtle()
+
 t = turtle.Turtle()
 s = turtle.Turtle()
-sr = turtle.Turtle()
+sun = turtle.Turtle()
+
 wn.bgcolor("green")
-love.pencolor("pink")
-love.penup()
-love.goto(-0, -250)
+rays.pencolor("pink")
+rays.penup()
 
 
+def draw_t():  # create body of the house
+    """ This function draws a house and fill it with color"""
 
-
-
-
-def draw_t(): # create body of the house
     t.penup()
     t.speed(-10)
     t.pensize(6)
@@ -38,16 +37,14 @@ def draw_t(): # create body of the house
     t.left(90)
     t.end_fill()
 
-
-    t.forward(100)# create partition
+    t.forward(100)  # create partition
     t.left(90)
     t.forward(200)
     t.left(90)
     t.end_fill()
     t.forward(100)
 
-
-    t.color("red", "violet")# creating the roof
+    t.color("red", "violet")  # creating the roof
     t.begin_fill()
     t.speed(-10)
     t.right(120)
@@ -56,17 +53,21 @@ def draw_t(): # create body of the house
     t.forward(100)
     t.end_fill()
 
-
-    t.begin_fill()# fill the roof
+    t.begin_fill()  # fill the roof
     t.backward(100)
     t.left(60)
     t.forward(300)
     t.right(60)
     t.forward(100)
     t.end_fill()
+
+
 def s_style():
+    """This function draw the roof of the house"""
     s.penup()
     s.goto(202, 50)
+    s.pendown()
+
     s.speed(-10)
     s.pendown()
     s.color("orange")
@@ -74,6 +75,7 @@ def s_style():
     s.pensize(3)
     s.pencolor("indigo")
     s.left(90)
+    s.end_fill()
 
     s.forward(60)
     s.left(90)
@@ -82,7 +84,7 @@ def s_style():
     s.forward(60)
     s.left(90)
     s.forward(60)
-    s.penup() #  the door
+    s.penup()  # using the same turtle to draw the door of the house
     s.goto(30, 0)
     s.pendown()
     s.left(90)
@@ -97,7 +99,8 @@ def s_style():
     s.forward(155)
 
     s.penup()
-    s.goto(-202,50)
+    s.goto(-202, 50)
+
     s.left(90)
     s.forward(100)
     s.pendown()
@@ -108,40 +111,36 @@ def s_style():
     s.forward(60)
     s.right(90)
     s.forward(60)
-def love_vals():
-    for i in range(2):  # creating codes for the circle sun shape
-        love.penup()
-        love.goto(00, 170)
-        love.pendown()
-        love.color("yellow")
-        love.fillcolor("yellow")
-        love.begin_fill()
-        love.pensize(2)
-        love.circle(30)
-        love.end_fill()
-        love.penup()
-def sun_rays():
-    for i in range(12):
-        love.penup()
-        love.goto(0,200)
-        love.pendown()
-        love.right(360/ 12 * i )
-        love.forward(50)
-        love.backward(100)
-        love.right(90)
-        love.penup()
-        love.goto(-130,270)
-        love.write("IT IS VERY SUNNY TODAY", font=("Times New Roman",16,"normal"))
+    s.backward(200)
+    s.penup()
 
-                            #Create the turtle object
+
+def sun_rays():
+    for i in range(2):  # creating codes for the house body
+        sun.penup()
+        sun.goto(00, 190)
+        sun.pendown()
+        sun.color("yellow")
+        sun.fillcolor("yellow")
+        sun.begin_fill()
+        sun.pensize(2)
+        sun.circle(40)
+        sun.end_fill()
+    for i in range(22):
+        sun.right(90)
+        sun.fd(30)
+        sun.backward(30)
+        sun.left(90)
+        sun.circle(40, 20)
 
 
 def main():
-
     draw_t()
     s_style()
-    love_vals()
+
     sun_rays()
+
+
 if __name__ == "__main__":
     main()
 
