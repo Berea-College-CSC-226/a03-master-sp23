@@ -8,11 +8,13 @@ import turtle
 wn = turtle.Screen()  # creating and defining the variables
 rays = turtle.Turtle()
 
-t = turtle.Turtle()
+house = turtle.Turtle()
 s = turtle.Turtle()
 sun = turtle.Turtle()
+wn.colormode(1.0)
+wn.bgcolor((144/255, 238/255, 144/255)) # using the RGB to create lightgreen
 
-wn.bgcolor("green")
+
 rays.pencolor("pink")
 rays.penup()
 
@@ -20,47 +22,48 @@ rays.penup()
 def draw_t():  # create body of the house
     """ This function draws a house and fill it with color"""
 
-    t.penup()
-    t.speed(-10)
-    t.pensize(6)
-    t.color("brown")
-    t.begin_fill()
-    t.goto(-200, -150)
-    t.pendown()
-    t.forward(400)
-    t.left(90)
-    t.forward(200)
-    t.left(90)
-    t.forward(400)
-    t.left(90)
-    t.forward(200)
-    t.left(90)
-    t.end_fill()
+    house.penup()
+    house.speed(-10)
+    house.pensize(6)
 
-    t.forward(100)  # create partition
-    t.left(90)
-    t.forward(200)
-    t.left(90)
-    t.end_fill()
-    t.forward(100)
+    house.color((225/225, 160/225, 0/225)) # using the RGB intensity for lightorange
+    house.begin_fill()
+    house.goto(-200, -150)
+    house.pendown()
+    house.forward(400)
+    house.left(90)
+    house.forward(200)
+    house.left(90)
+    house.forward(400)
+    house.left(90)
+    house.forward(200)
+    house.left(90)
+    house.end_fill()
 
-    t.color("red", "violet")  # creating the roof
-    t.begin_fill()
-    t.speed(-10)
-    t.right(120)
-    t.forward(100)
-    t.right(120)
-    t.forward(100)
-    t.end_fill()
+    house.forward(100)  # create partition
+    house.left(90)
+    house.forward(200)
+    house.left(90)
+    house.end_fill()
+    house.forward(100)
 
-    t.begin_fill()  # fill the roof
-    t.backward(100)
-    t.left(60)
-    t.forward(300)
-    t.right(60)
-    t.forward(100)
-    t.end_fill()
+    house.color("red", "brown")  # creating the roof
+    house.begin_fill()
+    house.speed(-10)
+    house.right(120)
+    house.forward(100)
+    house.right(120)
+    house.forward(100)
+    house.end_fill()
 
+    house.begin_fill()  # fill the roof
+    house.backward(100)
+    house.left(60)
+    house.forward(300)
+    house.right(60)
+    house.forward(100)
+    house.end_fill()
+    house.hideturtle()
 
 def s_style():
     """This function draw the roof of the house"""
@@ -113,7 +116,7 @@ def s_style():
     s.forward(60)
     s.backward(200)
     s.penup()
-
+    s.hideturtle()
 
 def sun_rays():
     for i in range(2):  # creating codes for the house body
@@ -121,7 +124,7 @@ def sun_rays():
         sun.goto(00, 190)
         sun.pendown()
         sun.color("yellow")
-        sun.fillcolor("yellow")
+        sun.color((224/224, 224/224, 0/224)) # using the RGB intensity of yellow
         sun.begin_fill()
         sun.pensize(2)
         sun.circle(40)
