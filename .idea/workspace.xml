@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="">
+    <list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="FINAL">
+      <change beforePath="$PROJECT_DIR$/.idea/a03-master-sp23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/a03-master-sp23.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agyapongv_A03.PY" beforeDir="false" afterPath="$PROJECT_DIR$/agyapongv_A03.PY" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planasl.py" beforeDir="false" afterPath="$PROJECT_DIR$/planasl.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.agyapongv_A03.PY">
+  <component name="RunManager" selected="Python.planasl">
     <configuration name="a03_hudsonk" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="a03-master-sp23" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,8 +100,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="planasl" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="a03-master-sp23" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/planasl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.planasl" />
         <item itemvalue="Python.agyapongv_A03.PY" />
         <item itemvalue="Python.agyapongv_A03.PY" />
         <item itemvalue="Python.agyapongv_A03.PY" />
@@ -173,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676347346351</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FINAL">
+      <created>1677128036397</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677128036397</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

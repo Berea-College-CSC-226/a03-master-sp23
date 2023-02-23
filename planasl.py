@@ -13,7 +13,7 @@
 import turtle
 # Set up the turtle screen and turtle objects
 wn = turtle.Screen()
-wn.bgcolor("lightpink")
+wn.bgcolor("#ffb6c1")
 
 t = turtle.Turtle()
 r = turtle.Turtle()
@@ -26,7 +26,7 @@ def house():
     t.penup()
     t.goto(-100,-100)
     t.pendown()
-    t.color("red")
+    t.color("#ff0000")
     t.begin_fill()
     t.forward(200)
     t.left(90)
@@ -92,6 +92,8 @@ def house():
     w_two.left(90)
     w_two.forward(40)
     w_two.end_fill()
+
+
 
 
 house()
