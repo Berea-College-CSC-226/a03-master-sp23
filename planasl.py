@@ -94,14 +94,14 @@ def house():
     w_two.end_fill()
 
 
-
-
-house()
-# Hide the turtles and exit the screen
-t.hideturtle()
-r.hideturtle()
-d.hideturtle()
-w_one.hideturtle()
-w_two.hideturtle()
+    # Hide the turtles and exit the screen
+    t.hideturtle()
+    r.hideturtle()
+    d.hideturtle()
+    w_one.hideturtle()
+    w_two.hideturtle()
+def main():
+    house()
+main()
 
 wn.exitonclick()

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="FINAL">
-      <change beforePath="$PROJECT_DIR$/.idea/a03-master-sp23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/a03-master-sp23.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planasl.py" beforeDir="false" afterPath="$PROJECT_DIR$/planasl.py" afterDir="false" />
-    </list>
+    <list default="true" id="1e3a9296-6d27-42cc-a132-72baab233b2f" name="Changes" comment="new things" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677128036397</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new things">
+      <created>1677129431815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677129431815</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +238,7 @@
     <MESSAGE value="typed code and added link." />
     <MESSAGE value="typed code and added link and fixed code" />
     <MESSAGE value="FINAL" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINAL" />
+    <MESSAGE value="new things" />
+    <option name="LAST_COMMIT_MESSAGE" value="new things" />
   </component>
 </project>
